@@ -1,10 +1,21 @@
 # Too hot too handle?
 
 ## Git
-Ich habe alles in Git gepackt. Besser zu versionieren und für den Dateiaustausch - inklusive direkter Vorschau.
+I put everythin in git. It's easier to handle and to share. Preview included.
 
-## Dokumentation der Angriffe
-Die verschiedenenn Angriffsvektoren würde ich in unterschiedliche Verzeichniss ablegen mit einer md in der alles beschrieben wird und den dazu gehörenden Screenshots.
+## Documentation of attacks
+The different types of attacks are ordered in subfolders and the screenshot that belongs are inside these folders.
 
 ## Obsidian Report
-Leider sind bei mir ganz viele der Screenshots mit 0KB angekommen, sodass sie unbrauchbar waren. Deshalb habe ich sie gelöscht.
+Unfortunately, a lot of the screenshots I received were 0 KB, so they were unusable. That's why I deleted them.
+
+
+## Findings
+
+- CWE-615 — Information Exposure Through Comments
+- CWE-434 - Unrestricted File Upload
+- CWE-598 - Credentials via GET
+
+- Value of Plan prices are changeable on client side - with no input validation
+- Reflected XSS possible on Deals and Reviews
+
