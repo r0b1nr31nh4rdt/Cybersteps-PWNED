@@ -1,0 +1,10 @@
+[2Kblog                    [Status: 301, Size: 309, Words: 20, Lines: 10, Duration: 0ms][0m
+[2Kcss                     [Status: 301, Size: 308, Words: 20, Lines: 10, Duration: 145ms][0m
+[2Kicon                    [Status: 301, Size: 309, Words: 20, Lines: 10, Duration: 0ms][0m
+[2KJS                      [Status: 301, Size: 307, Words: 20, Lines: 10, Duration: 0ms][0m
+[2Kdashboard               [Status: 301, Size: 314, Words: 20, Lines: 10, Duration: 0ms][0m
+[2KEditor                  [Status: 301, Size: 311, Words: 20, Lines: 10, Duration: 2ms][0m
+[2Kserver-status           [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 0ms][0m
+[2Kexercises               [Status: 301, Size: 314, Words: 20, Lines: 10, Duration: 2ms][0m
+[2Ktopsecret.html          [Status: 200, Size: 14975, Words: 2215, Lines: 225, Duration: 13ms][0m
+[2Kclassifiedadmin         [Status: 301, Size: 320, Words: 20, Lines: 10, Duration: 0ms][0m

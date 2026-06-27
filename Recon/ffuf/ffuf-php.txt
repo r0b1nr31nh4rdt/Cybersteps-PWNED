@@ -1,0 +1,19 @@
+[2Kcss                     [Status: 301, Size: 308, Words: 20, Lines: 10, Duration: 11ms][0m
+[2Kblog                    [Status: 301, Size: 309, Words: 20, Lines: 10, Duration: 5ms][0m
+[2Klogin.php               [Status: 500, Size: 0, Words: 1, Lines: 1, Duration: 22ms][0m
+[2KAdmin.php               [Status: 200, Size: 8935, Words: 1851, Lines: 192, Duration: 3ms][0m
+[2Ksupport.php             [Status: 200, Size: 4192, Words: 437, Lines: 110, Duration: 2ms][0m
+[2Kindex.php               [Status: 200, Size: 11429, Words: 2526, Lines: 178, Duration: 87ms][0m
+[2Kicon                    [Status: 301, Size: 309, Words: 20, Lines: 10, Duration: 6ms][0m
+[2KJS                      [Status: 301, Size: 307, Words: 20, Lines: 10, Duration: 5ms][0m
+[2Kdashboard               [Status: 301, Size: 314, Words: 20, Lines: 10, Duration: 5ms][0m
+[2KEditor                  [Status: 301, Size: 311, Words: 20, Lines: 10, Duration: 3ms][0m
+[2KInfo.php                [Status: 200, Size: 3771, Words: 295, Lines: 131, Duration: 7ms][0m
+[2Kserver-status           [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 2ms][0m
+[2KReviews.php             [Status: 200, Size: 4542, Words: 452, Lines: 112, Duration: 42ms][0m
+[2Kexercises               [Status: 301, Size: 314, Words: 20, Lines: 10, Duration: 3ms][0m
+[2KDeals.php               [Status: 200, Size: 6379, Words: 796, Lines: 171, Duration: 81ms][0m
+[2KEmployeeHandbook.php    [Status: 200, Size: 1305, Words: 262, Lines: 34, Duration: 5ms][0m
+[2Kclassifiedadmin         [Status: 301, Size: 320, Words: 20, Lines: 10, Duration: 2ms][0m
+[2Kindex.php               [Status: 200, Size: 11429, Words: 2526, Lines: 178, Duration: 125ms][0m
+[2Kvisiter-newsdesk.php    [Status: 200, Size: 1037, Words: 187, Lines: 28, Duration: 28ms][0m
