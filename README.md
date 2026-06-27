@@ -15,7 +15,7 @@ Unfortunately, a lot of the screenshots I received were 0 KB, so they were unusa
 - CWE-615 — Information Exposure Through Comments
 - CWE-434 - Unrestricted File Upload
 - CWE-598 - Credentials via GET
+- CWE-639 - Authorization Bypass Through User-Controlled Key
 
 - Value of Plan prices are changeable on client side - with no input validation
 - Reflected XSS possible on Deals and Reviews
-
