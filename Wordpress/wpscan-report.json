@@ -1,0 +1,203 @@
+{
+  "banner": {
+    "description": "WordPress Security Scanner by the WPScan Team",
+    "version": "3.8.28",
+    "authors": [
+      "@_WPScan_",
+      "@ethicalhack3r",
+      "@erwan_lr",
+      "@firefart"
+    ],
+    "sponsor": "Sponsored by Automattic - https://automattic.com/"
+  },
+  "start_time": 1782599423,
+  "start_memory": 67366912,
+  "target_url": "http://10.10.10.10/blog/",
+  "target_ip": "10.10.10.10",
+  "effective_url": "http://10.10.10.10/blog/",
+  "interesting_findings": [
+    {
+      "url": "http://10.10.10.10/blog/",
+      "to_s": "Headers",
+      "type": "headers",
+      "found_by": "Headers (Passive Detection)",
+      "confidence": 100,
+      "confirmed_by": {
+
+      },
+      "references": {
+
+      },
+      "interesting_entries": [
+        "Server: Apache/2.4.41 (Ubuntu)"
+      ]
+    },
+    {
+      "url": "http://10.10.10.10/blog/xmlrpc.php",
+      "to_s": "XML-RPC seems to be enabled: http://10.10.10.10/blog/xmlrpc.php",
+      "type": "xmlrpc",
+      "found_by": "Direct Access (Aggressive Detection)",
+      "confidence": 100,
+      "confirmed_by": {
+
+      },
+      "references": {
+        "url": [
+          "http://codex.wordpress.org/XML-RPC_Pingback_API"
+        ],
+        "metasploit": [
+          "auxiliary/scanner/http/wordpress_ghost_scanner",
+          "auxiliary/dos/http/wordpress_xmlrpc_dos",
+          "auxiliary/scanner/http/wordpress_xmlrpc_login",
+          "auxiliary/scanner/http/wordpress_pingback_access"
+        ]
+      },
+      "interesting_entries": [
+
+      ]
+    },
+    {
+      "url": "http://10.10.10.10/blog/readme.html",
+      "to_s": "WordPress readme found: http://10.10.10.10/blog/readme.html",
+      "type": "readme",
+      "found_by": "Direct Access (Aggressive Detection)",
+      "confidence": 100,
+      "confirmed_by": {
+
+      },
+      "references": {
+
+      },
+      "interesting_entries": [
+
+      ]
+    },
+    {
+      "url": "http://10.10.10.10/blog/wp-content/uploads/",
+      "to_s": "Upload directory has listing enabled: http://10.10.10.10/blog/wp-content/uploads/",
+      "type": "upload_directory_listing",
+      "found_by": "Direct Access (Aggressive Detection)",
+      "confidence": 100,
+      "confirmed_by": {
+
+      },
+      "references": {
+
+      },
+      "interesting_entries": [
+
+      ]
+    },
+    {
+      "url": "http://10.10.10.10/blog/wp-cron.php",
+      "to_s": "The external WP-Cron seems to be enabled: http://10.10.10.10/blog/wp-cron.php",
+      "type": "wp_cron",
+      "found_by": "Direct Access (Aggressive Detection)",
+      "confidence": 60,
+      "confirmed_by": {
+
+      },
+      "references": {
+        "url": [
+          "https://www.iplocation.net/defend-wordpress-from-ddos",
+          "https://github.com/wpscanteam/wpscan/issues/1299"
+        ]
+      },
+      "interesting_entries": [
+
+      ]
+    }
+  ],
+  "version": {
+    "number": "7.0",
+    "release_date": "2026-05-20",
+    "status": "latest",
+    "found_by": "Meta Generator (Passive Detection)",
+    "confidence": 100,
+    "interesting_entries": [
+      "http://10.10.10.10/blog/, Match: 'WordPress 7.0'"
+    ],
+    "confirmed_by": {
+      "Rss Generator (Aggressive Detection)": {
+        "confidence": 100,
+        "interesting_entries": [
+          "http://10.10.10.10/blog/feed/, <generator>https://wordpress.org/?v=7.0</generator>",
+          "http://10.10.10.10/blog/comments/feed/, <generator>https://wordpress.org/?v=7.0</generator>"
+        ]
+      }
+    },
+    "vulnerabilities": [
+
+    ]
+  },
+  "main_theme": {
+    "slug": "cybersteps-blog",
+    "location": "http://10.10.10.10/blog/wp-content/themes/cybersteps-blog/",
+    "latest_version": null,
+    "last_updated": null,
+    "outdated": false,
+    "readme_url": false,
+    "directory_listing": false,
+    "error_log_url": null,
+    "style_url": "http://10.10.10.10/blog/wp-content/themes/cybersteps-blog/style.css?ver=1.0",
+    "style_name": "CyberSteps Blog",
+    "style_uri": "http://cyberstepsvuln.local",
+    "description": "Internal blog theme for CyberSteps Tech Blog.",
+    "author": "CyberSteps Dev Team",
+    "author_uri": null,
+    "template": null,
+    "license": "GNU General Public License v2 or later",
+    "license_uri": null,
+    "tags": null,
+    "text_domain": null,
+    "found_by": "Css Style In Homepage (Passive Detection)",
+    "confidence": 100,
+    "interesting_entries": [
+
+    ],
+    "confirmed_by": {
+      "Css Style In 404 Page (Passive Detection)": {
+        "confidence": 70,
+        "interesting_entries": [
+
+        ]
+      }
+    },
+    "vulnerabilities": [
+
+    ],
+    "version": {
+      "number": "1.0",
+      "confidence": 80,
+      "found_by": "Style (Passive Detection)",
+      "interesting_entries": [
+        "http://10.10.10.10/blog/wp-content/themes/cybersteps-blog/style.css?ver=1.0, Match: 'Version: 1.0'"
+      ],
+      "confirmed_by": {
+
+      }
+    },
+    "parents": [
+
+    ]
+  },
+  "plugins": {
+
+  },
+  "config_backups": {
+
+  },
+  "vuln_api": {
+    "error": "No WPScan API Token given, as a result vulnerability data has not been output.\nYou can get a free API token with 25 daily requests by registering at https://wpscan.com/register"
+  },
+  "stop_time": 1782599427,
+  "elapsed": 3,
+  "requests_done": 140,
+  "cached_requests": 41,
+  "data_sent": 37297,
+  "data_sent_humanised": "36.423 KB",
+  "data_received": 63662,
+  "data_received_humanised": "62.17 KB",
+  "used_memory": 287203328,
+  "used_memory_humanised": "273.898 MB"
+}
