@@ -20,7 +20,5 @@ Goal: Pentest a vulnerable virtual machine and write a report about the findings
 
 
 > [!NOTE]
-
 > Descriptions in `/Findings`.
-
 > Screenshots in folders organized by vulnerability.
