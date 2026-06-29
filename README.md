@@ -12,10 +12,16 @@ Unfortunately, a lot of the screenshots I received were 0 KB, so they were unusa
 
 ## Findings
 
-- CWE-615 — Information Exposure Through Comments
-- CWE-434 - Unrestricted File Upload
-- CWE-598 - Credentials via GET
-- CWE-639 - Authorization Bypass Through User-Controlled Key
+- Broken Access Control via Forced Browsing
+- Business Logic Flaw — Client-Controlled Pricing
+- Database Connection Uses Over-Privileged Account
+- Directory Listing Enabled
+- Exposure of Plaintext Password List in Publicly Accessible File
+- Hardcoded Credentials in HTML Comments
+- Path Traversal / Arbitrary File Read
+- Privilege Escalation via Cookie Manipulation
+- Reflected Cross-Site Scripting (XSS)
+- Sensitive Credentials Transmitted via GET Request
+- SQL Injection (Unauthenticated)
+- Unrestricted File Upload
 
-- Value of Plan prices are changeable on client side - with no input validation
-- Reflected XSS possible on Deals and Reviews
