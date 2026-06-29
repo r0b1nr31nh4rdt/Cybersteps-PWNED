@@ -1,14 +1,7 @@
-# Too hot too handle?
+# PWNED
+Cybersteps - Module 2 - Project 3
 
-## Git
-I put everythin in git. It's easier to handle and to share. Preview included.
-
-## Documentation of attacks
-The different types of attacks are ordered in subfolders and the screenshot that belongs are inside these folders.
-
-## Obsidian Report
-Unfortunately, a lot of the screenshots I received were 0 KB, so they were unusable. That's why I deleted them.
-
+Goal: Pentest a vulnerable virtual machine and write a report about the findings.
 
 ## Findings
 
@@ -25,3 +18,9 @@ Unfortunately, a lot of the screenshots I received were 0 KB, so they were unusa
 - SQL Injection (Unauthenticated)
 - Unrestricted File Upload
 
+
+> [!NOTE]
+
+> Descriptions in `/Findings`.
+
+> Screenshots in folders organized by vulnerability.
